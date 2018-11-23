@@ -25,6 +25,18 @@
 /* Begin PBXFileReference section */
 		0C1398C021A21505008D702B /* project2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1398C321A21505008D702B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0C1398CD21A21904008D702B /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		0C1398CE21A21904008D702B /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		0C1398D021A22092008D702B /* day8.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day8.csv; sourceTree = "<group>"; };
+		0C1398D121A22092008D702B /* day6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day6.csv; sourceTree = "<group>"; };
+		0C1398D221A22092008D702B /* day4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day4.csv; sourceTree = "<group>"; };
+		0C1398D321A22092008D702B /* day7.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day7.csv; sourceTree = "<group>"; };
+		0C1398D421A22092008D702B /* day3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3.csv; sourceTree = "<group>"; };
+		0C1398D521A22092008D702B /* day10.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day10.csv; sourceTree = "<group>"; };
+		0C1398D621A22092008D702B /* day1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day1.csv; sourceTree = "<group>"; };
+		0C1398D721A22092008D702B /* day9.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day9.csv; sourceTree = "<group>"; };
+		0C1398D821A22092008D702B /* day2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2.csv; sourceTree = "<group>"; };
+		0C1398D921A22092008D702B /* day5.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = day5.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,29 @@
 		0C1398C221A21505008D702B /* project2 */ = {
 			isa = PBXGroup;
 			children = (
+				0C1398DA21A220AD008D702B /* Data */,
 				0C1398C321A21505008D702B /* main.cpp */,
+				0C1398CD21A21904008D702B /* Employee.cpp */,
+				0C1398CE21A21904008D702B /* Employee.hpp */,
 			);
 			path = project2;
+			sourceTree = "<group>";
+		};
+		0C1398DA21A220AD008D702B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C1398D621A22092008D702B /* day1.csv */,
+				0C1398D821A22092008D702B /* day2.csv */,
+				0C1398D421A22092008D702B /* day3.csv */,
+				0C1398D221A22092008D702B /* day4.csv */,
+				0C1398D921A22092008D702B /* day5.csv */,
+				0C1398D121A22092008D702B /* day6.csv */,
+				0C1398D321A22092008D702B /* day7.csv */,
+				0C1398D021A22092008D702B /* day8.csv */,
+				0C1398D721A22092008D702B /* day9.csv */,
+				0C1398D521A22092008D702B /* day10.csv */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

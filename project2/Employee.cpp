@@ -7,3 +7,27 @@
 //
 
 #include "Employee.hpp"
+#include <fstream>
+#include <string>
+#include <stdlib.h>
+
+using namespace std;
+
+Employee::Employee(int id, int call_num, int pos_fb, int neg_fb){
+
+    ID = id;
+    callNum = call_num;
+    posFB = pos_fb;
+    negFB = neg_fb;
+
+};
+
+int Employee::getPerf(){
+    performance = 2*callNum + posFB - negFB;
+    return performance;
+}
+
+
+
+
+

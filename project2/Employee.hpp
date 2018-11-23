@@ -9,6 +9,28 @@
 #ifndef Employee_hpp
 #define Employee_hpp
 
-#include <stdio.h>
+#include <iostream>
+
+class Employee{
+private:
+    int getPerf();
+public:
+    int ID;
+    int callNum;
+    int posFB;
+    int negFB;
+    int performance;
+    Employee(){};
+    Employee(int id, int call_num, int pos_fb, int neg_fb);
+    Employee operator=(Employee& other){
+        ID = other.ID;
+        callNum = other.callNum;
+        posFB = other.posFB;
+        negFB = other.negFB;
+        return* this;
+    };
+    
+    //void increaseKey(Employee &employee);
+};
 
 #endif /* Employee_hpp */
