@@ -12,24 +12,23 @@
 #include <iostream>
 
 class Employee{
-private:
-    int getPerf();
 public:
     int ID;
     int callNum;
     int posFB;
     int negFB;
     int performance;
-    Employee(){};
-    Employee(int id, int call_num, int pos_fb, int neg_fb);
-    Employee operator=(Employee& other){
-        ID = other.ID;
-        callNum = other.callNum;
-        posFB = other.posFB;
-        negFB = other.negFB;
-        return* this;
+    Employee(){
+        int performance = 0;
     };
-    
+    Employee(int id, int call_num, int pos_fb, int neg_fb);
+    int getPerf();
+    Employee operator=(Employee& other);
+    Employee extract(Employee arr[], int size);
+    void MaxHeapify(Employee arr[], int n, int i, char type);
+    void Build_MaxHeap(Employee arr[], int n, char type);
+    void HeapSort(Employee arr[], int n, char type);
+
     //void increaseKey(Employee &employee);
 };
 

@@ -27,6 +27,14 @@ int Employee::getPerf(){
     return performance;
 }
 
+Employee Employee::operator=(Employee &other){
+    ID = other.ID;
+    callNum = other.callNum;
+    posFB = other.posFB;
+    negFB = other.negFB;
+    return* this;
+};
+
 
 
 
