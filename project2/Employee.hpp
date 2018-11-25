@@ -19,7 +19,10 @@ public:
     int negFB;
     int performance;
     Employee(){
-        int performance = 0;
+        performance = 0;
+        callNum = 0;
+        posFB = 0;
+        negFB = 0;
     };
     Employee(int id, int call_num, int pos_fb, int neg_fb);
     int getPerf();
